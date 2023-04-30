@@ -1,0 +1,342 @@
+
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+  font-family: 'League Spartan', sans-serif;
+}
+p{
+  font-size: 18px;
+  color: rgb(108, 117, 125);
+}
+/* header section  */
+header{
+  background-color: rgb(231, 230, 230);
+}
+header img{
+  width: 100px;
+}
+.active{
+  color: blue !important;
+  border-bottom: 2px solid rgb(119, 115, 255);
+  margin: 0 20px;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left:0;
+  vertical-align:0;
+  content: "";
+  border-top: none;
+  border-right:none;
+  border-bottom:none;
+  border-left: none;
+}
+.menu-item{
+  margin: 0 20px;
+  transition: .4s;
+}
+.menu-item:hover{
+  border-bottom:2px solid blue;
+}
+.menu-items{
+  color: rgb(88, 87, 87);
+  font-size: 25px;
+}
+.menu-items:hover{
+  color: rgb(119, 115, 255);
+}
+.dropdown-item{
+  background-color: rgb(0, 16, 255);
+  color: #fff !important;
+  transition: .4s;
+}
+.dropdown-item:hover{
+  background-color: rgb(119, 115, 255);
+  color: #fff;
+}
+
+button{
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 35px;
+  color: blue;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px #00000044;
+  position: relative;
+  z-index: 1;
+  border: none;
+}
+button::before{
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 30px;
+  background-color:rgb(119, 115, 255);
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+button:hover::before{
+  opacity: 1;
+  width: 100%;
+  visibility: visible;
+}
+
+/* header section end */
+
+/* banner section start */
+
+.banner{
+  background:rgb(237, 246, 255);
+  overflow: hidden;
+}
+
+.banner .banner-text{
+  padding: 208px 0;
+}
+.banner .banner-text a{
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 10px 20px !important;
+}
+.banner .banner-text a:hover{
+  background-color: #fff;
+  border:1px solid rgba(0, 94, 255, 0.766);
+  color:rgba(0, 94, 255, 0.766);
+}
+.banner .banner-img img {
+  width: 900px;
+  border-radius: 49% 0% 49% 49%;
+  margin: -150px 0px 0px 90px;
+}
+
+/* banner section end */
+
+/* features section start */
+
+.featuers-text h5{
+  color: rgb(157, 143, 236);
+}
+.feature-card{
+  position: relative;
+}
+.card-bg img {
+  position: absolute;
+  bottom: -50px;
+  left: -45px;
+}
+.featuers-text h1{
+
+}
+.featuers-text span {
+  background-color: rgb(157, 143, 236);
+  display: block;
+  width: 53px;
+  height: 4px;
+  margin: -5px 0px 20px 0;
+}
+.card{
+
+  background-color: rgb(249, 252, 255);
+  transition: .4s;
+}
+.product span{
+  background-color: rgb(157, 143, 236);
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin: -5px 0px 20px 0;
+  transition: .4s;
+}
+.card:hover .product span{
+  width: 65px;
+  background-color: #fff;
+}
+.card:hover {
+    background-color: rgb(82, 82, 240);
+    color: #fff !important;
+}
+
+.card:hover p{
+  color: #fff;
+}
+i.lni.lni-microscope{
+  font-size: 30px;
+}
+i.lni.lni-microscope {
+  font-size: 30px;
+  color: #fff;
+  background-color: rgb(82, 82, 240);
+  padding: 20px;
+  border-radius: 49% 49% 49% 0% ;
+  margin: 15px 0px;
+  transition: .4s;
+}
+.card:hover  i.lni.lni-microscope{
+    color:  rgb(82, 82, 240);
+  background-color:#fff;
+}
+
+i.lni.lni-ux {
+  font-size: 30px;
+  color: #fff;
+  background-color: rgb(82, 82, 240);
+  padding: 20px;
+  border-radius: 49% 49% 49% 0% ;
+  margin: 15px 0px;
+  transition: .4s;
+}
+.card:hover  i.lni.lni-ux {
+    color:  rgb(82, 82, 240);
+  background-color:#fff;
+}
+
+i.lni.lni-graph {
+  font-size: 30px;
+  color: #fff;
+  background-color: rgb(82, 82, 240);
+  padding: 20px;
+  border-radius: 49% 49% 49% 0% ;
+  margin: 15px 0px;
+  transition: .4s;
+}
+.card:hover  i.lni.lni-graph{
+    color:  rgb(82, 82, 240);
+  background-color:#fff;
+}
+
+i.lni.lni-blackboard {
+  font-size: 30px;
+  color: #fff;
+  background-color: rgb(82, 82, 240);
+  padding: 20px;
+  border-radius: 49% 49% 49% 0% ;
+  margin: 15px 0px;
+  transition: .4s;
+}
+.card:hover  i.lni.lni-blackboard{
+    color:  rgb(82, 82, 240);
+  background-color:#fff;
+}
+
+
+/* features section end */
+
+
+/* CREATOR section start */
+
+.creator{
+  color: #fff;
+  background:url() no-repeat;
+  
+}
+
+.creator{
+  background: url('./img/video-bg.jpg') no-repeat;
+  background-size: cover;
+  height: 750px;
+  margin-top: 0px;
+  position: relative;
+  z-index: 1;
+}
+.creator::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.52);
+  z-index: -1;
+}
+
+.creator-text{
+  margin: 70px 0;
+ }
+.creator-text h1{
+  font-size: 45px;
+ }
+.creator-text p{
+  color: #fff !important;
+  line-height: 22px;
+ }
+.creator-text span{
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 120px;
+  height: 4px;
+  margin: 0px 40px 10px 0;
+}
+
+.creator-text .icon{
+  background-color:#fff;
+  color: rgb(82, 82, 240) !important;
+  font-size: 23px !important;
+  Width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: .4s;
+}
+.creator-text .icon:hover{
+  background-color: rgb(82, 82, 240) !important;
+  color: #fff !important;
+}
+.creator-text .icon::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  right: 0px;
+  bottom: 0px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: auto;
+  animation: playbtn 1s ease-out infinite;
+}
+.creator-text .icon::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -15px;
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: auto;
+  animation: playbtn 1s ease-out infinite;
+}
+@keyframes playbtn{
+  0%{transform:scale(0) ;
+    opacity: 0;
+  }
+  20%{transform:scale(1) ;
+    opacity: .4;
+  }
+  40%{transform:scale(1.2) ;
+    opacity: .6;
+  }
+  60%{transform:scale(1.4) ;
+    opacity:.8;
+  }
+  80%{transform:scale(1.6) ;
+    opacity: .10;
+  }
+  100%{transform:scale(1.8) ;
+    opacity: 0;
+  }
+}
+/* CREATOR section end */
